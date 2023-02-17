@@ -1,0 +1,153 @@
+body {
+	background: #0066b2
+}
+
+.calculator {
+	width: 270px;
+	margin: auto;
+	height: 350px;
+	background: aliceblue;
+	border: 2px solid black;
+	border: white;
+	border-radius: 8px;
+	padding: 5px;
+}
+
+.screen {
+	width: 92%;
+	height: 25%;
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 15px;
+	position: relative;
+	flex-direction: column;
+	background-color: #89CFF0;
+	align-items: flex-end;
+	padding: 5px;
+	border-width: 2px;
+	border-radius: 3px;
+}
+
+#screen1 {
+	margin-top: -4px;
+	font-size: 20px;
+	color: #0d84e6;
+	text-align: left;
+	width: 98%;
+	height: 45%;
+	
+}
+
+#screen2 {
+	margin-top: 10px;
+	font-size: 40px;
+	width: 93%;
+	height: 95%;
+}
+
+.screen input {
+	border: none;
+	background-color: #89CFF0;
+	font-size: 24px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	width: 100%;
+	text-align: right;
+}
+
+.operator {
+	background-color: #6CB4EE;
+	border-color: white;
+	color: #0d84e6;
+}
+
+.number {
+	background-color: #89CFF0;
+	border-color: white;
+	
+}
+
+.buttons {
+	margin-top: 15px;
+	margin-left: 5px;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	background-color: white;
+	grid-gap: 2px;
+	padding:4px;
+}
+
+button {
+	width: 37px;
+	height: 35px;
+	margin: auto;
+	margin-left: 1px;
+	margin-top: 5px;
+	margin-bottom: 1px;
+	background: aliceblue;
+	border-radius: 7px;
+	font-size: 12.5px;
+	font-family: sans-serif;
+	font-weight: 100;
+	padding-left: 0px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #0066b2;
+	background: linear-gradient()
+}
+
+.operators {
+	background-color: #6CB4EE;
+	border-color: white;
+}
+
+#ans{
+	background-color:#6CB4EE ;
+	border-color: white;
+	color: #0d84e6;
+}
+
+#clear{
+	background-color:#6CB4EE ;
+	border-color: white;
+	color: #0d84e6;
+}
+
+#sqrt{
+	background-color:#6CB4EE ;
+	border-color: white;
+	color: #0d84e6;
+}
+
+#del{
+	background-color:#6CB4EE ;
+	border-color: white;
+	color: #0d84e6;
+}
+
+#opposite{
+	background-color:#6CB4EE ;
+	border-color: white;
+	color: #0d84e6;
+}
+
+
+button:hover {
+	cursor: pointer;
+	background: linear-gradient();
+}
+
+#enter {
+	grid-column:4;
+	grid-row:5;
+	height: 40px;
+	width:180%;
+	background-color: #0066b2;
+	border-color: white;
+	color:white;
+}
